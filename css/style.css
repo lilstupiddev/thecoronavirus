@@ -1,0 +1,692 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    overflow-x: hidden;
+    background: #fff;
+}
+
+header{
+    width: 100%;
+    background: #fff;
+    padding-top: 35px;
+    padding-left: 200px;
+    height: 700px;
+    padding-bottom: 100px;
+}
+
+.header-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+.logo-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text-part span{
+    font-family: Gelion;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    transition: .3s all ease-in-out;
+}
+
+.text-part span:hover{
+    color:#FB4C47;
+}
+
+
+
+.text-part a{
+    text-decoration: none;
+    color: #000;
+}
+
+.text-part a:not(:last-child){
+    margin-right: 10px;
+}
+
+.text-part button{
+    background-color: transparent;
+    border: 2px solid #FB4C47;
+    color:#FB4C47;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: normal;
+    font-weight: 500 bold;
+    font-size: 18px;
+    line-height: 22px;
+    box-sizing: border-box;
+    border-radius: 46px;
+    transition: .3s all ease-in-out;
+}
+
+.text-part button:hover{
+    background-color: #FB4C47;
+    color: white;
+}
+
+.header-body .first-part h2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 122%;
+    color: #FA5652;
+}
+
+.header-body{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-body .first-part h1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 8px;
+}
+
+.header-body .first-part p{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #4B4F51; 
+    margin-top: 25px;
+}
+
+.header-body .first-part button{
+    background-color: #FB4C47;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    box-sizing: border-box;
+    border-radius: 46px;
+    border: none;
+    margin-top: 50px;
+}
+
+.header-body .second-part img{
+    width: 640px;
+    height: auto;
+    right: 0;
+}
+
+
+.whatIsCovid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatIsCovid img{
+    width: 650px;
+    height: auto;
+    transition: .4s all ease-in-out;
+}
+
+@media     (min-width:1400px){
+
+.whatIsCovid img:hover{
+    filter: drop-shadow(0 0 1rem crimson);   
+}}
+
+.whatIsCovid h2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 122%;
+    color: #FA5652;
+}
+
+
+.whatIsCovid h1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 8px;
+}
+
+.whatIsCovid p{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #4B4F51; 
+    margin-top: 25px;
+}
+
+.whatIsCovid button{
+    background: rgba(250, 86, 82, 0.15);
+    color:#FA5652;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    box-sizing: border-box;
+    border-radius: 46px;
+    transition: .3s all ease-in-out;
+    border: none;
+    margin-top: 50px;
+}
+
+.whatIsCovid .bgc-photo{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: auto;
+    margin-top: 200px;
+}
+
+.whatIsCovid .bgc-photo-2{
+    position: absolute;
+    right: 40px;
+    width: 100px;
+    height: auto;
+    margin-top: 350px;
+}
+
+.contagion h2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 122%;
+    color: #FA5652;
+}
+
+
+.contagion h1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 8px;
+}
+
+.contagion p{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3px;
+    line-height: 210%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards .card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 48  0px;
+    background: #FFD89A;
+    border-radius: 10px;
+    padding-top: 50px;
+    transition: .3s all ease-in-out;
+}
+
+@media (min-width:1400px){
+
+.cards .card:not(:last-child){
+    margin-right: 30px;
+}}
+
+@media (min-width:1400px){
+
+.cards .card:hover{
+    transform: scale(1.08);
+    cursor: zoom-in;
+    box-shadow: 10px 10px 100px rgba(0,0,0,2);
+}}
+
+.cards .card img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.bgc-virus-photo{
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: auto;
+    margin-top: 210px;
+}
+
+.symptoms{
+    margin-top: 150px;
+}
+
+.symptoms h2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 122%;
+    color: #FA5652;
+}
+
+
+.symptoms h1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 8px;
+}
+
+.symptoms p{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3px;
+    line-height: 210%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-top: 20px;
+}
+
+@media(min-width:1400px){
+    .symptoms-img{
+        width: 60%;
+        height: 800px;
+    }
+}
+
+.symptoms-img{
+    width: 80%;
+    transition: .4s all ease-in-out;
+}
+@media (min-width:1400px){
+
+.symptoms-img:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    cursor: pointer;    
+}}
+
+.path-1{
+    position: absolute;
+    left: 90px;
+    margin-top: 450px;
+    transition: .4s all ease-in-out;
+}
+
+.path-2{
+    position: absolute;
+    right: 40px;
+    margin-top: -200px;
+    transition: .4s all ease-in-out;
+}
+
+@media (min-width:1400px){
+
+.path-1:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    cursor: pointer;
+}
+
+.path-2:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    cursor: pointer;
+}
+}
+.info{
+    margin-top: 120px;
+}
+
+.info h2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 122%;
+    color: #FA5652;
+}
+
+
+.info h1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 8px;
+}
+
+.info p{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3px;
+    line-height: 210%;
+    text-transform: capitalize;
+    color: #4B4F51;
+    margin-top: 20px;
+}
+
+.info section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;    
+}
+
+.info section img{
+    width: 400px;
+    height: auto;
+    transition: .4s all ease-in-out;
+}
+
+@media (min-width:1400px){
+
+.info section img:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    cursor: zoom-in;
+}}
+
+.green_virus_bgc{
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: auto;
+    margin-top: 400px;
+}
+
+.virus_bgc-1{
+    position: absolute;
+    right: 27px;
+    margin-top: -440px;
+}
+
+.virus_bgc-2{
+    position: absolute;
+    right: 0;
+    margin-top: -300px;
+    width: 110px;
+    height: auto;
+}
+
+    .container{
+        padding-left: 140px;
+    }
+.map{
+    width: 100%;
+    height: auto;
+}
+
+.stat{
+    width: 100%;
+    height: auto;
+}
+
+.flex-stat{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#reports{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+iframe{
+    position: relative;
+    right: 5%;
+}
+
+.rights{
+    font-size: 22px;
+    font-family: Red Hat Display;
+    font-weight: bold;
+    text-align: center;
+    color: #415E56;
+    margin-right: 100px;
+}
+
+.reports h2{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 122%;
+    color: #FA5652;
+    text-align: center;
+}
+
+.reports h1{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+    margin-top: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media (max-width:1400px) {
+    .header-body{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .header-body .first-part, .header-body h2, .header-body h2, .header-body p, .header-body img{
+        margin: 0;
+        padding: 0;
+    }
+    .header-body .second-part{
+        margin: 0;
+        padding: 0;
+    }
+    .header-body .first-part{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .header-heading{
+        flex-direction: column;
+    }
+    .text-part{
+        padding-right: 0;
+        margin-right: 0;
+        flex-direction: column;
+        margin-top: 20px;
+        display: none;
+    }
+    .logo{
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header-heading{
+        padding-right: 0;
+    }
+    .whatIsCovid{
+        margin-top: 100px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card p{
+        max-width: 80%;
+    }
+    .card:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .card{
+        max-width: 80%;
+    }
+    .bgc-photo, .bgc-photo-2, .bgc-virus-photo, .green_virus_bgc, .virus_bgc-1, .virus-bgc-photo-2, .virus_bgc-2, .virus-bgc-photo-1{
+        display: none;
+    }
+    .container{
+        padding-left: 0;
+    }
+    .path-1, .path-2{
+        display: none;
+    }
+    .symptoms p{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .whatistext{
+        max-width: 90%;
+        margin-top: -100px;
+    }
+    .first-part p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .symptoms-img{
+        
+    }
+    .info section{
+        flex-direction: column;
+    }
+    #another-section{
+        flex-direction: column-reverse;
+    }
+    .info section img{
+        margin-bottom: 50px;
+    }
+    .info section p{
+        margin-bottom: 50px;
+    }
+    .info section p, .info section h1{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:900px){
+    .header-body img{
+        display: none;
+    }
+    .whatIsCovid{
+        margin-top: -400px;
+    }
+    .reports{
+        display: none;
+    }
+    .info img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #adadada{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .card{
+        max-width: 75%;
+    }
+    #DADADADADADA{
+        width: 80%; 
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #ddadadadadadad{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.card p{
+    max-width: 80%;
+}
+
+.card{
+    height: 550px;
+}
+
+.reports iframe{
+    margin-bottom: 50px;
+}
